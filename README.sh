@@ -1,13 +1,13 @@
 # exam_save.sh
-The script takes atleast 2 arguments, shows error if the number of arguments are less than 2. The first argument is taken as the student number and the other arguments are assigned to their values as needed. The script returns an error if any argument other than the required ones are presented.
+#The script takes atleast 2 arguments, shows error if the number of arguments are less than 2. The first argument is taken as the student number and the other #arguments are assigned to their values as needed. The script returns an error if any argument other than the required ones are presented.
 
-Code:
+#Code:
  
 #!/bin/bash -u
 PATH=/bin:/usr/bin ; export PATH
 umask 022
 
-# Alvien Vinu Philips phil0432@algonquinlive.com
+#Alvien Vinu Philips phil0432@algonquinlive.com
 
 if [ $# -lt 2 ]
 then
